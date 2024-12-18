@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Haven - Menu</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="orders.html">Orders</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Our Menu</h1>
+        <section class="menu-section" id="appetizers">
+            <h2>Appetizers</h2>
+            <div class="dish-grid">
+                <div class="dish-card">
+                    <div class="dish-image" id="appetizer-1" data-category="appetizer"></div>
+                    <h3>Crispy Calamari</h3>
+                    <p>Lightly battered and served with zesty aioli.</p>
+                    <button class="add-to-cart" data-id="1">Add to Cart</button>
+                </div>
+                <div class="dish-card">
+                    <div class="dish-image" id="appetizer-2" data-category="appetizer"></div>
+                    <h3>Bruschetta Trio</h3>
+                    <p>Classic tomato, mushroom, and olive tapenade.</p>
+                    <button class="add-to-cart" data-id="2">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        <section class="menu-section" id="main-courses">
+            <h2>Main Courses</h2>
+            <div class="dish-grid">
+                <div class="dish-card">
+                    <div class="dish-image" id="main-1" data-category="main"></div>
+                    <h3>Grilled Salmon</h3>
+                    <p>With lemon butter sauce and asparagus.</p>
+                    <button class="add-to-cart" data-id="3">Add to Cart</button>
+                </div>
+                <div class="dish-card">
+                    <div class="dish-image" id="main-2" data-category="main"></div>
+                    <h3>Beef Tenderloin</h3>
+                    <p>Served with truffle mashed potatoes.</p>
+                    <button class="add-to-cart" data-id="4">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        <section class="menu-section" id="desserts">
+            <h2>Desserts</h2>
+            <div class="dish-grid">
+                <div class="dish-card">
+                    <div class="dish-image" id="dessert-1" data-category="dessert"></div>
+                    <h3>Chocolate Lava Cake</h3>
+                    <p>With vanilla ice cream and berry compote.</p>
+                    <button class="add-to-cart" data-id="5">Add to Cart</button>
+                </div>
+                <div class="dish-card">
+                    <div class="dish-image" id="dessert-2" data-category="dessert"></div>
+                    <h3>Crème Brûlée</h3>
+                    <p>Classic French dessert with a caramelized top.</p>
+                    <button class="add-to-cart" data-id="6">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Gourmet Haven. All rights reserved.</p>
+    </footer>
+    <script src="static/js/main.js"></script>
+    <script src="static/js/cart.js"></script>
+</body>
+</html>
+

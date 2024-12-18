@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Haven - Cart</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="cart.html" class="active">Cart</a></li>
+                <li><a href="orders.html">Orders</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Your Cart</h1>
+        <section id="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </section>
+        <section id="cart-summary">
+            <h2>Order Summary</h2>
+            <p>Total: $<span id="cart-total">0.00</span></p>
+            <button id="checkout-btn">Proceed to Checkout</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Gourmet Haven. All rights reserved.</p>
+    </footer>
+    <script src="static/js/main.js"></script>
+    <script src="static/js/cart.js"></script>
+</body>
+</html>
+
